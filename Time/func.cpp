@@ -8,7 +8,7 @@ bool IsLeapYear(int y)
 	return ((y % 4 == 0) && (y % 100 != 0));
 }
 
-int LaterInYear(int d1, int m1, int d2, int m2)
+int LaterInYear(int m1, int d1, int m2, int d2)
 {
 	assert((m1 < 12) && (m1 > 0));
 	assert((m2 < 12) && (m2 > 0));
