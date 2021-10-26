@@ -18,4 +18,7 @@ int main()
 	//task4
 	assert(DaysInYearRange(2002, 2004) == 365 + 365 + 366);
 	assert(DaysInYearRange(2003, 2004) == 365 + 366);
+
+	//task5
+	assert(SeconsInHours(1)==3600);
 }

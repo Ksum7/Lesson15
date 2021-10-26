@@ -10,4 +10,6 @@ int DaysInYear(int y);
 
 int DaysInYearRange(int y1, int y2);
 
+int SeconsInHours(int h);
+
 #endif 

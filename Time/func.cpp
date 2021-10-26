@@ -35,3 +35,8 @@ int DaysInYearRange(int y1, int y2)
 		res += DaysInYear(i);
 	return res;
 }
+
+int SeconsInHours(int h)
+{
+	return h * 60 * 60;
+}
