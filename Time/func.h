@@ -4,6 +4,6 @@
 
 bool IsLeapYear(int y);
 
-
+int SecondsInMinute();
 
 #endif 

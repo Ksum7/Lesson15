@@ -6,3 +6,8 @@ bool IsLeapYear(int y)
 		return true;
 	return ((y % 4 == 0) && (y % 100 != 0));
 }
+
+int SecondsInMinute()
+{
+	return 60;
+}
