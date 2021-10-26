@@ -20,3 +20,10 @@ int LaterInYear(int d1, int m1, int d2, int m2)
 	if (d1 > d2) return 1;
 	return 2;
 }
+
+int DaysInYear(int y)
+{
+	if (IsLeapYear(y))
+		return 366;
+	return 365;
+}
