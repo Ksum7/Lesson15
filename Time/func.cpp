@@ -27,3 +27,11 @@ int DaysInYear(int y)
 		return 366;
 	return 365;
 }
+
+int DaysInYearRange(int y1, int y2)
+{
+	int res = 0;
+	for (int i = y1; i <= y2; i++)
+		res += DaysInYear(i);
+	return res;
+}
